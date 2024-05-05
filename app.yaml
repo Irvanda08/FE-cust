@@ -1,2 +1,7 @@
 runtime: nodejs18
 service: default
+version: 20240505t043430
+
+handlers:
+- url: /.*
+  script: auto
